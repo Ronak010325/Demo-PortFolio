@@ -51,7 +51,7 @@ body {
 #intro p {
     margin: 5px 0;
     font-size: 1.5rem;
-    color: rgb(105, 117, 101);
+    color: rgb(45 61 45);   
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -100,11 +100,13 @@ body .center {
     text-align: start;
     width: 100%;
     height: fit-content;
-    background-color:rgba(236, 223, 204, 0.378);
+    background-color:rgb(233 247 188);
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     padding-bottom: 2rem;
 }
+
+/* rgba(236, 223, 204, 0.378) */
 
 #projects .projects-title {
     text-align: center;
@@ -113,7 +115,7 @@ body .center {
     font-family: "Bona Nova SC", serif;
     font-weight: 400;
     font-style: normal;
-    color: rgb(30, 32, 30);
+    color: rgb(45 61 45);
 }
 
 #projects .container {
@@ -155,19 +157,20 @@ body .center {
     font-family: "Bona Nova SC", serif;
     font-weight: 450;
     font-style: normal;
-    color:rgb(105, 117, 101);
+    color:rgb(45 61 45);
 }
 
 #projects .inner .child2 p {
     font-size: 1.8rem;
     margin: 10px 0;
     font-family: sans-serif;
+    color: rgb(105, 117, 101);
 }
 
 #projects li {
     font-family: sans-serif;
     font-size: 1.3rem;
-    color: rgb(30, 32, 30);
+    color: rgb(105, 117, 101);
 }
 
 /* ------------------------------------------------------------------------------------------- */
@@ -187,7 +190,7 @@ body .center {
     font-style: normal;
     font-size: 3rem;
     margin-bottom: 2rem;
-    color: rgb(105, 117, 101);
+    color: rgb(45 61 45);
 }
 
 #contact-me h3 {
@@ -195,6 +198,10 @@ body .center {
     font-weight: 500;
     color: rgb(105, 117, 101);
     margin: 2rem 0;
+}
+
+#contact-me p {
+    color: rgb(105, 117, 101);
 }
 
 #contact-me .title {
@@ -205,12 +212,12 @@ body .center {
 #contact-me button {
     margin-top: 0.9rem;
     padding: 0.6rem;
-    color: black;
+    color: rgb(45 61 45);
     font-weight: bold;
     font-family: sans-serif;
     font-size: 1rem;
     border-radius: 1000px;
-    border-color: black;
+    border-color: rgb(45 61 45);
 }
 
 /* ------------------------------------------------------------------------------------ */
@@ -219,14 +226,14 @@ body .center {
     width: 100%;
     height: fit-content;
     text-align: center;
-    background-color: rgb(60, 61, 55);
+    background-color: rgb(143 185 138);
 }
 
 #footer li {
     display: inline;
     margin: 2rem;
     font-size: 1.7rem;
-    color: rgb(236, 223, 204);
+    color: rgb(62 105 98);
 }
 
 #footer ul {
@@ -234,8 +241,8 @@ body .center {
 }
 #footer p {
     font-size: 1.3rem;
-    color: rgb(236, 223, 204);
-    margin-top: 1.6rem;
+    color: rgb(45 61 45);
+    margin-top: 1.2rem;
     margin-bottom: 0;
 }
 
