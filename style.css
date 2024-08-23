@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#intro {
+    height: fit-content;
+}
+
+#intro .outer {
+    position: relative;
+    height: 119vh;
+}
+
+#intro img {
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+#intro .inner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#intro .inner h3 {
+    margin: 5px;
+    font-size: 2.5rem;
+    display: block;
+    font-family: sans-serif;
+    color: rgb(105, 117, 101);
+}
+
+#intro h2 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.5rem;
+    margin: 5px 0;
+    color:rgb(60, 61, 55);
+}
+
+#intro p {
+    margin: 5px 0;
+    font-size: 1.5rem;
+    color: rgb(236, 223, 204);
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+
+#resume {
+    width: 100%;
+    height: fit-content;
+}
+
+#resume .container {
+    margin-top: 3.5rem;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+#resume .container p {
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(105, 117, 101);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(60, 61, 55);
+    
+}
+
+/* ----------------------------------------------------------------- */
+body .center {
+    text-align: center;
+    align-items: center;
+    font-size: 4rem;
+    margin:2rem 0 3rem 0;
+    color: rgba(105, 117, 101, 0.292);
+}
+
+/* ------------------------------------------------------------------- */
+#projects {
+    text-align: start;
+    width: 100%;
+    height: fit-content;
+    background-color:rgba(236, 223, 204, 0.378);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding-bottom: 2rem;
+}
+
+#projects .projects-title {
+    text-align: center;
+    margin: 5rem 0;
+    font-size: 3rem;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(30, 32, 30);
+}
+
+#projects .container {
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+}
+
+#projects .inner {
+    display: flex;
+    gap:3rem;
+    justify-content: center;
+    height: fit-content;
+    padding: 0 2rem;
+}
+
+#projects .image {
+    float: left;
+}
+
+#projects .inner .child1 {
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+#projects img {
+    border-radius: 15px;
+}
+
+#projects .inner .child2 {
+    flex-grow: 1;
+    min-width: 3rem;
+    padding-left: 20px;
+}
+
+#projects .inner .child2 h3 {
+    font-size: 2.4rem;
+    margin: 0 0 10px 0;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 450;
+    font-style: normal;
+    color:rgb(105, 117, 101);
+}
+
+#projects .inner .child2 p {
+    font-size: 1.8rem;
+    margin: 10px 0;
+    font-family: sans-serif;
+}
+
+#projects li {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    color: rgb(30, 32, 30);
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+#contact-me {
+    text-align: center;
+    padding-bottom: 2rem;
+    background-color: whitesmoke;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    height: fit-content;
+}
+
+#contact-me > h2{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: rgb(105, 117, 101);
+}
+
+#contact-me h3 {
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgb(105, 117, 101);
+    margin: 2rem 0;
+}
+
+#contact-me .title {
+    font-family: sans-serif;
+
+}
+
+#contact-me button {
+    margin-top: 0.9rem;
+    padding: 0.6rem;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1rem;
+    border-radius: 1000px;
+    border-color: black;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+#footer {
+    width: 100%;
+    height: 25vh;
+    text-align: center;
+    background-color: rgb(60, 61, 55);
+}
+
+#footer li {
+    display: inline;
+    margin: 2rem;
+    font-size: 1.5rem;
+    color: rgb(236, 223, 204);
+}
+
+#footer p {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    color: rgb(236, 223, 204);
+}
+
+#footer .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .child2 {
+    flex-grow: 1;
+}
+
+@media (max-width: 1198px) {
+    #projects .inner {
+        flex-direction: column;
+    }
+    #projects img {
+        width: 100%;
+    }
+}
