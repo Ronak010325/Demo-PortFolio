@@ -75,6 +75,10 @@ body {
     color: rgb(105, 117, 101);
 }
 
+#resume .container > p {
+    padding: 0 2rem;
+}
+
 a {
     text-decoration: none;
     cursor: pointer;
@@ -221,7 +225,7 @@ body .center {
 #footer li {
     display: inline;
     margin: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: rgb(236, 223, 204);
 }
 
